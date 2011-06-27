@@ -1,0 +1,35 @@
+Radio Deejay
+
+/* TEAM */
+  Marco Vigano'
+  Site: http://www.sasha04.com
+  Twitter: @Sasha0423
+  Location: Milan
+  
+  Lorenzo Pace
+  Site: -------------
+  Twitter: @lorenzopace
+  Location: Milan
+  
+  Gianluca Guarini
+  Site: http://www.gianlucaguarini.com
+  Twitter: @gianlucaguarini
+  Location: Milan
+  
+
+/* THANKS */
+  Boilerplate: http://it.html5boilerplate.com/
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  
+                                    
+      /    \    
+     J      L   
+      \,--./    
+    __/`--'\__   
+  ,' J`\  /'L `. 
+      \ || /     
+       J--L     
+    --"    "--     
