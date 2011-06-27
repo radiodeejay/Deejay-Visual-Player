@@ -1,0 +1,363 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="ie6" lang="it"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7" lang="it"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8" lang="it"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="it"> <!--<![endif]-->
+
+<head>
+<script>
+
+if ( window.navigator.language != "it" ) {      
+	window.location = "index-eng.html"+location.hash	
+}
+</script>
+<meta charset="utf-8">
+<title>Radio Deejay Visual Player</title>
+<meta name="description" content="Cosa lega Duran Duran, Skunk Anansie e Take That? Scoprilo con la nuova esperienza multimediale di DEEJAY.IT">
+<meta name="author" content="Radio Deejay">
+<meta property="og:title" content="Radio Deejay Visual Player" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="http://www.deejay.it/D5/contest/" />
+<meta property="og:site_url" content="http://www.deejay.it/" />
+<meta property="og:image" content="img/share-thumb.jpg" />
+<meta property="og:site_name" content="Radio Deejay Visual Player" />
+<meta property="og:description" content="Cosa lega Duran Duran, Skunk Anansie e Take That? Scoprilo con la nuova esperienza multimediale di DEEJAY.IT" />
+
+
+<link type="text/plain" rel="author" href="humans.txt" />
+<link rel="image_src" href="img/share-thumb.jpg"/>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.deejay.it/deejaymultidef.ico">
+<link rel="icon" type="image/ico" href="http://www.deejay.it/deejaymultidef.ico">
+<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/flarevideo.css" type="text/css">
+<link rel="stylesheet" href="css/flarevideo.deejay.css" type="text/css">
+<!--[if lt IE 9]>
+<script src='js/html5.js'></script>
+<![endif]-->
+</head>
+
+<body>
+<noscript>
+<div class="alert" id="noJs">Per vedere i contenuti di questa pagina abilita javascript sul tuo browser</div>
+</noscript>
+<div class="alert" id="update">Per vedere il contenuto di questa pagina dovresti aggiornare il tuo browser<br />
+  <br />
+  <br />
+  <a target="_blank" href="http://www.microsoft.com/downloads/en/default.aspx"><img src="img/ie9.png" width="156" height="156" alt="ie9"></a><a target="_blank" href="http://www.mozilla.com/"><img src="img/firefox.png" width="156" height="156" alt="firefox4"></a><a target="_blank" href="http://www.google.com/chrome"><img src="img/chrome.png" width="150" height="150" alt="chrome"></a> </div>
+<div id="app">
+  <div id="preloader"></div>
+  <h1 id="logo"><span class="ir">Radio Deejay</span><a href="#">
+    <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="253.222 358.809 100 100" enable-background="new 253.222 358.809 100 100"
+	 xml:space="preserve">
+      <g>
+        <path fill="#FFFFFF" d="M303.223,458.809c13.355,0,25.911-5.201,35.355-14.645c9.443-9.444,14.644-22,14.644-35.355
+		c0-13.355-5.2-25.912-14.644-35.355c-9.444-9.444-22-14.645-35.355-14.645s-25.912,5.201-35.356,14.645
+		c-9.444,9.444-14.645,22-14.645,35.356c0,13.355,5.201,25.911,14.645,35.354C277.312,453.608,289.868,458.809,303.223,458.809z
+		 M258.26,408.81c0-24.792,20.17-44.963,44.963-44.963c12.01,0,23.301,4.677,31.793,13.169c8.492,8.493,13.169,19.784,13.169,31.794
+		c0,24.792-20.17,44.961-44.962,44.961C278.431,453.771,258.26,433.601,258.26,408.81z"/>
+      </g>
+      <g>
+        <g>
+          <path fill="#FFFFFF" d="M285.78,378.413l-10.095-0.008c-1.129-0.001-1.98,0.947-1.98,1.977l-0.021,24.941
+			c-0.001,1.129,1.324,1.783,1.978,1.784l11.776,0.008c6.057,0.007,7.152-9.336,7.333-10.88l0.005-6.136
+			C294.639,384.992,293.01,378.419,285.78,378.413z M284.573,401.272c-1.228-0.042-1.94-0.08-3.167-0.002l0.012-16.525l2.771,0.002
+			c2.374,0.001,3.166,2.991,3.162,6.93l-0.002,2.177C287.35,393.853,287.541,401.373,284.573,401.272z"/>
+          <path fill="#FFFFFF" d="M298.879,378.423l13.063,0.009c1.879,0.102,1.68,1.33,1.677,3.565c-0.002,1.703-0.138,2.554-1.482,2.574
+			c-1.446,0.019-3.188,0.075-7.72-0.008l-0.004,4.553c1.841,0.061,2.903,0.001,4.75,0.003c1.186,0,1.583,0.675,1.583,1.586
+			l-0.002,3.167c-0.002,0.871-0.911,1.385-1.784,1.385l-4.553-0.005l-0.005,5.838c1.98,0.041,2.667,0.002,7.617,0.005
+			c1.089,0.001,1.879,0.297,1.681,2.477c0,1.86,0.455,3.563-1.583,3.563l-13.262-0.011c-1.069,0-2.177-1.068-2.176-1.981
+			l0.021-23.16C296.541,379.47,297.254,378.423,298.879,378.423z"/>
+          <path fill="#FFFFFF" d="M318.122,378.437l13.065,0.011c1.877,0.1,1.677,1.328,1.676,3.565c0,1.703-0.137,2.553-1.484,2.573
+			c-1.444,0.017-3.187,0.076-7.72-0.006l-0.003,4.55c1.841,0.062,2.902,0.004,4.751,0.004c1.185,0.002,1.582,0.676,1.582,1.586
+			l-0.002,3.167c0,0.872-0.912,1.385-1.782,1.384l-4.554-0.003l-0.005,5.837c1.979,0.041,2.667,0.003,7.617,0.006
+			c1.091,0.001,1.877,0.296,1.68,2.476c-0.001,1.861,0.457,3.565-1.582,3.564l-13.264-0.011c-1.067-0.001-2.176-1.07-2.174-1.982
+			l0.02-23.159C315.786,379.485,316.499,378.436,318.122,378.437z"/>
+          <path fill="#FFFFFF" d="M284.229,410.997l4.34,0.005c1.678,0,1.676,1.974,1.576,3.551l-0.019,22.685
+			c-0.001,0.555-0.553,2.168-1.778,2.168l-12.822-0.01c-0.651-0.001-1.774-0.75-1.773-1.974l0.004-6.707
+			c0.001-1.066,1.027-2.169,2.37-2.169l2.367,0.003c0.986,0,2.17,0.553,2.168,1.776l-0.002,1.974c0,0.453,0.059,0.985,0.987,0.986
+			c0.768,0,0.986-0.333,0.986-0.986l0.014-16.372C282.649,414.033,282.276,410.996,284.229,410.997z"/>
+          <path fill="#FFFFFF" d="M312.069,424.235c-2.971-10.103-3.126-13.219-5.316-13.22l-6.705-0.005c-2.131,0-2.079,2.07-2.765,4.338
+			l-5.74,22.679c0.099,0.751-0.079,0.532,0.591,1.382l5.913,0.004c1.419,0.001,1.479-1.282,2.27-4.043
+			c0.298-1.48,0.793-3.056,0.793-3.056l5.325,0.002c0,0,0.339,2.264,0.786,4.047c0.441,1.768,0.698,3.06,1.878,3.06l5.918,0.004
+			c0.671,0.001,0.986-0.413,0.986-1.182C316.004,436.787,315.669,436.449,312.069,424.235z M302.199,426.1
+			c0.593-2.364,0.897-5.128,1.392-6.508c0.354,1.48,1.369,6.51,1.369,6.51L302.199,426.1z"/>
+          <path fill="#FFFFFF" d="M312.315,411.019l6.113,0.007c1.401,0,1.571,1.972,2.168,2.959c0,0,1.272,3.451,1.666,3.945
+			c0.021-0.148,0.773-2.116,1.482-3.844c0.605-1.478,0.98-3.055,1.978-3.055l6.516,0.004c0.828,0.001,0.848,0.297,0.985,0.988
+			l-7.313,15.182l-0.008,10.455c0,0.652-0.748,1.774-1.974,1.772l-3.747-0.001c-0.889-0.001-1.974-1.165-1.972-2.369l0.009-9.864
+			l-7.194-15.095C311.125,411.116,311.604,411.018,312.315,411.019z"/>
+        </g>
+        <path fill="#FFFFFF" d="M328.501,437.202c0-1.107,0.839-1.939,1.912-1.939c1.059,0,1.89,0.832,1.89,1.939
+		c0,1.125-0.831,1.95-1.89,1.95C329.34,439.152,328.501,438.327,328.501,437.202z M330.413,439.539c1.273,0,2.356-0.983,2.356-2.337
+		c0-1.342-1.083-2.325-2.356-2.325c-1.288,0-2.379,0.983-2.379,2.325C328.034,438.555,329.125,439.539,330.413,439.539z
+		 M329.918,437.387h0.47l0.713,1.168h0.456l-0.767-1.186c0.396-0.049,0.7-0.26,0.7-0.744c0-0.531-0.315-0.767-0.953-0.767h-1.028
+		v2.696h0.409V437.387L329.918,437.387z M329.918,437.042v-0.838h0.557c0.285,0,0.587,0.063,0.587,0.398
+		c0,0.416-0.309,0.439-0.655,0.439H329.918z"/>
+      </g>
+      <foreignObject width="100" height="100"> <img src="img/logo-deejay.png" width="100" height="100" alt="logo deejay" /> </foreignObject>
+    </svg>
+    </a> </h1>
+  <div id="container">
+    <header id="mainHeader">
+      <nav>
+        <h2 class="visuallyhidden">Schegli l'artista</h2>
+        <ul>
+          <li><a href="#skunkanansie/photogallery">Skin e i suoi <span>SKUNK ANANSIE</span>, uno dei gruppi rock più amati in Italia, ospiti a Tropical Pizza.</a></li>
+          <li><a href="#takethat/photogallery">Dopo 14 anni ritorna al completo la boy band per definizione: i <span>TAKE THAT </span>a Deejay Chiama Italia. </a></li>
+          <li><a href="#duranduran/photogallery">Da Birmingham, la band che ha dato un suono agli anni '80. A Deejay Chiama Italia i <span>DURAN DURAN</span> </a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="main">
+      <section id="skunkanansie">
+        <h2>Skunk Anansie</h2>
+        <nav>
+          <h3 class="visuallyhidden">Menu di navigazione Skunk Anansie</h3>
+          <ul>
+            <li><a href="#skunkanansie/photogallery">Photogallery</a>
+              <ul class="Gallerynav" id="skunkanansiephotogallerynav">
+              </ul>
+            </li>
+            <li class="videoLink"><a href="#skunkanansie/video">Video</a></li>
+            <li class="last"><a href="#skunkanansie/lyrics">Lyrics</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="takethat">
+        <h2>Take that</h2>
+        <nav>
+          <h3 class="visuallyhidden">Menu di navigazione take that</h3>
+          <ul>
+            <li><a href="#takethat/photogallery">Photogallery</a>
+              <ul class="Gallerynav" id="takethatphotogallerynav">
+              </ul>
+            </li>
+            <li class="videoLink"><a href="#takethat/video">Video</a></li>
+            <li class="last"><a href="#takethat/lyrics">Lyrics</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="duranduran">
+        <h2>Duran duran</h2>
+        <nav>
+          <h3 class="visuallyhidden">Menu di navigazione Duran duran</h3>
+          <ul>
+            <li><a href="#duranduran/photogallery">Photogallery</a>
+              <ul class="Gallerynav" id="duranduranphotogallerynav">
+              </ul>
+            </li>
+            <li class="videoLink"><a href="#duranduran/video">Video</a></li>
+            <li class="last"><a href="#duranduran/lyrics">Lyrics</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </div>
+  <!--! end of #container -->
+  <footer id="shareLink">
+    <aside>
+      <h2 class="visuallyhidden">Condividi</h2>
+      <ul>
+        <li><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.deejay.it/D5/contest/&amp;t=Cosa lega Duran Duran, Skunk Anansie e Take That? Scoprilo con la nuova esperienza multimediale di DEEJAY.IT" title="Condividi con Facebook"></a></li>
+        <li><a target="_blank" href="http://twitter.com/home?status=%23radiodeejay%20Cosa%20lega%20Duran%20Duran,%20Skunk%20Anansie%20e%20Take%20That?%20Scoprilo%20con%20la%20nuova%20esperienza%20multimediale%20di%20DEEJAY.IT http://bit.ly/kxeF13%20" title="Condividi con Twitter"></a></li>
+        <li><a target="_blank" href="http://profile.live.com/badge?url=http://www.deejay.it/D5/contest/" title="Condividi con Messenger"></a></li>
+	    <li><a target="_blank" href="https://microsoft.promo.eprize.com/ie9app/gallery?id=254" title="Vota"><span>VOTA</span></a></li>
+      </ul>
+    </aside>
+  </footer>
+  <div id="overlayTexture"></div>
+  <div id="bgContent">
+    <div id="startImages">
+      <div style="background:url(img/skunkanansie.jpg) no-repeat top center;background-size:cover" id='skunkanansieImg'> </div>
+      <div style="background:url(img/takethat.jpg) no-repeat top center;background-size:cover" id='takethatImg'> </div>
+      <div style="background:url(img/duranduran.jpg) no-repeat top center;background-size:cover" id='duranduranImg'> </div>
+    </div>
+    <section class="photogallery" id="skunkanansiephotogallery">
+      <h2 class="visuallyhidden">Skunk Anansie Photogallery</h2>
+      <ul>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23211.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23212.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23215.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23219.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23222.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23223.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23224.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23225.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23226.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23227.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23228.jpg"  alt="skunknanasie"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/23229.jpg"  alt="skunknanasie"/></li>
+      </ul>
+    </section>
+    <section class="photogallery" id="takethatphotogallery">
+      <h2 class="visuallyhidden">Take That Photogallery</h2>
+      <ul>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25106.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25109.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25112.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25116.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25118.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25120.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25122.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25123.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25124.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25125.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25126.jpg"  alt="take thaht"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/25128.jpg"  alt="take thaht"/></li>
+      </ul>
+    </section>
+    <section class="photogallery" id="duranduranphotogallery">
+      <h2 class="visuallyhidden">Duran Duran Photogallery</h2>
+      <ul>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26826.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26827.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26837.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26841.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26843.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26851.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26852.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26853.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26856.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26859.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26863.jpg"  alt="duran duran"/></li>
+        <li> <img src="http://www.deejay.it/media/images/fotogallery/img/26868.jpg"  alt="duran duran"/></li>
+      </ul>
+    </section>
+    <div id="video"> </div>
+    <div id="lyrics"></div>
+  </div>
+</div>
+<!--! end of #bgContent -->
+<div id="fork">
+  <ul id="skunkanansiephotogalleryFork">
+    <li><a href="#takethat/video">"You saved me" è una delle ballad dell'ultimo album Wonderlustre. C'è una band tornata da poco in formazione tipo specializzata in canzoni d'amore.<br /> Qual è?</a></li>
+    <li><a href="#skunkanansie/video"><span>SKIP!</span></a></li>
+    <li><a href="#duranduran/video">Durante l'intervista con Nikki, il bassista Cass giocava ripetutamente con un pallone. Il calcio, si sa, è una passione dei musicisti. Ne sanno qualcosa i Duran Duran. </a></li>
+  </ul>
+  <ul id="skunkanansievideoFork">
+    <li><a href="#takethat/lyrics">"You saved me" è una delle ballad dell'ultimo album Wonderlustre. C'è una band tornata da poco in formazione tipo specializzata in canzoni d'amore.<br /> Qual è? </a></li>
+    <li><a href="#skunkanansie/lyrics"><span>SKIP!</span></a></li>
+    <li><a href="#duranduran/lyrics">Durante l'intervista con Nikki, il bassista Cass giocava ripetutamente con un pallone. Il calcio, si sa, è una passione dei musicisti. Ne sanno qualcosa i Duran Duran. </a></li>
+  </ul>
+  <ul id="takethatphotogalleryFork">
+    <li><a href="#skunkanansie/video">Nel 1995 i Take That pubblicarono l'ultimo album prima di dividersi. Nello stesso anno a Brixton esplode un'ondata rock che invaderà l'Italia. </a></li>
+    <li><a href="#takethat/video"><span>SKIP!</span></a></li>
+    <li><a href="#duranduran/video">i Take That diedero forma al concetto di "Boy Band".  Ma già negli anni 80 il fenomeno esisteva e rispondeva al nome di… </a></li>
+  </ul>
+  <ul id="takethatvideoFork">
+    <li><a href="#skunkanansie/lyrics">Nel 1995 i Take That pubblicarono l'ultimo album prima di dividersi. Nello stesso anno a Brixton esplode un'ondata rock che invaderà l'Italia. </a></li>
+    <li><a href="#takethat/lyrics"><span>SKIP!</span></a></li>
+    <li><a href="#duranduran/lyrics">i Take That diedero forma al concetto di "Boy Band".  Ma già negli anni 80 il fenomeno esisteva e rispondeva al nome di… </a></li>
+  </ul>
+  <ul id="duranduranphotogalleryFork">
+    <li><a href="#takethat/video"> Nel 1987 i DURAN DURAN suonarono a San Siro. Quest'anno un'altra pop band calcherà il palco della "Scala" del calcio.<br />  Chi?</a></li>
+    <li><a href="#duranduran/video"><span>SKIP!</span></a></li>
+    <li><a href="#skunkanansie/video"> Musica e moda hanno sempre incrociato i loro destini. E' il caso di Simon Le Bon e soci. Ma anche di Skin, una vera icona del fashion rock.</a></li>
+  </ul>
+  <ul id="duranduranvideoFork">
+    <li><a href="#takethat/lyrics">Nel 1987 i DURAN DURAN suonarono a San Siro. Quest'anno un'altra pop band calcherà il palco della "Scala" del calcio.<br />  Chi?</a></li>
+    <li><a href="#duranduran/lyrics"><span>SKIP!</span></a></li>
+    <li><a href="#skunkanansie/lyrics"> Musica e moda hanno sempre incrociato i loro destini. E' il caso di Simon Le Bon e soci. Ma anche di Skin, una vera icona del fashion rock. </a></li>
+  </ul>
+</div>
+<!-- end of #fork -->
+<div id="theEnd">
+  <h1><a href="index.html">
+      <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="253.222 358.809 100 100" enable-background="new 253.222 358.809 100 100"
+	 xml:space="preserve">
+        <g>
+          <path fill="#FFFFFF" d="M303.223,458.809c13.355,0,25.911-5.201,35.355-14.645c9.443-9.444,14.644-22,14.644-35.355
+		c0-13.355-5.2-25.912-14.644-35.355c-9.444-9.444-22-14.645-35.355-14.645s-25.912,5.201-35.356,14.645
+		c-9.444,9.444-14.645,22-14.645,35.356c0,13.355,5.201,25.911,14.645,35.354C277.312,453.608,289.868,458.809,303.223,458.809z
+		 M258.26,408.81c0-24.792,20.17-44.963,44.963-44.963c12.01,0,23.301,4.677,31.793,13.169c8.492,8.493,13.169,19.784,13.169,31.794
+		c0,24.792-20.17,44.961-44.962,44.961C278.431,453.771,258.26,433.601,258.26,408.81z"/>
+        </g>
+        <g>
+          <g>
+            <path fill="#FFFFFF" d="M285.78,378.413l-10.095-0.008c-1.129-0.001-1.98,0.947-1.98,1.977l-0.021,24.941
+			c-0.001,1.129,1.324,1.783,1.978,1.784l11.776,0.008c6.057,0.007,7.152-9.336,7.333-10.88l0.005-6.136
+			C294.639,384.992,293.01,378.419,285.78,378.413z M284.573,401.272c-1.228-0.042-1.94-0.08-3.167-0.002l0.012-16.525l2.771,0.002
+			c2.374,0.001,3.166,2.991,3.162,6.93l-0.002,2.177C287.35,393.853,287.541,401.373,284.573,401.272z"/>
+            <path fill="#FFFFFF" d="M298.879,378.423l13.063,0.009c1.879,0.102,1.68,1.33,1.677,3.565c-0.002,1.703-0.138,2.554-1.482,2.574
+			c-1.446,0.019-3.188,0.075-7.72-0.008l-0.004,4.553c1.841,0.061,2.903,0.001,4.75,0.003c1.186,0,1.583,0.675,1.583,1.586
+			l-0.002,3.167c-0.002,0.871-0.911,1.385-1.784,1.385l-4.553-0.005l-0.005,5.838c1.98,0.041,2.667,0.002,7.617,0.005
+			c1.089,0.001,1.879,0.297,1.681,2.477c0,1.86,0.455,3.563-1.583,3.563l-13.262-0.011c-1.069,0-2.177-1.068-2.176-1.981
+			l0.021-23.16C296.541,379.47,297.254,378.423,298.879,378.423z"/>
+            <path fill="#FFFFFF" d="M318.122,378.437l13.065,0.011c1.877,0.1,1.677,1.328,1.676,3.565c0,1.703-0.137,2.553-1.484,2.573
+			c-1.444,0.017-3.187,0.076-7.72-0.006l-0.003,4.55c1.841,0.062,2.902,0.004,4.751,0.004c1.185,0.002,1.582,0.676,1.582,1.586
+			l-0.002,3.167c0,0.872-0.912,1.385-1.782,1.384l-4.554-0.003l-0.005,5.837c1.979,0.041,2.667,0.003,7.617,0.006
+			c1.091,0.001,1.877,0.296,1.68,2.476c-0.001,1.861,0.457,3.565-1.582,3.564l-13.264-0.011c-1.067-0.001-2.176-1.07-2.174-1.982
+			l0.02-23.159C315.786,379.485,316.499,378.436,318.122,378.437z"/>
+            <path fill="#FFFFFF" d="M284.229,410.997l4.34,0.005c1.678,0,1.676,1.974,1.576,3.551l-0.019,22.685
+			c-0.001,0.555-0.553,2.168-1.778,2.168l-12.822-0.01c-0.651-0.001-1.774-0.75-1.773-1.974l0.004-6.707
+			c0.001-1.066,1.027-2.169,2.37-2.169l2.367,0.003c0.986,0,2.17,0.553,2.168,1.776l-0.002,1.974c0,0.453,0.059,0.985,0.987,0.986
+			c0.768,0,0.986-0.333,0.986-0.986l0.014-16.372C282.649,414.033,282.276,410.996,284.229,410.997z"/>
+            <path fill="#FFFFFF" d="M312.069,424.235c-2.971-10.103-3.126-13.219-5.316-13.22l-6.705-0.005c-2.131,0-2.079,2.07-2.765,4.338
+			l-5.74,22.679c0.099,0.751-0.079,0.532,0.591,1.382l5.913,0.004c1.419,0.001,1.479-1.282,2.27-4.043
+			c0.298-1.48,0.793-3.056,0.793-3.056l5.325,0.002c0,0,0.339,2.264,0.786,4.047c0.441,1.768,0.698,3.06,1.878,3.06l5.918,0.004
+			c0.671,0.001,0.986-0.413,0.986-1.182C316.004,436.787,315.669,436.449,312.069,424.235z M302.199,426.1
+			c0.593-2.364,0.897-5.128,1.392-6.508c0.354,1.48,1.369,6.51,1.369,6.51L302.199,426.1z"/>
+            <path fill="#FFFFFF" d="M312.315,411.019l6.113,0.007c1.401,0,1.571,1.972,2.168,2.959c0,0,1.272,3.451,1.666,3.945
+			c0.021-0.148,0.773-2.116,1.482-3.844c0.605-1.478,0.98-3.055,1.978-3.055l6.516,0.004c0.828,0.001,0.848,0.297,0.985,0.988
+			l-7.313,15.182l-0.008,10.455c0,0.652-0.748,1.774-1.974,1.772l-3.747-0.001c-0.889-0.001-1.974-1.165-1.972-2.369l0.009-9.864
+			l-7.194-15.095C311.125,411.116,311.604,411.018,312.315,411.019z"/>
+          </g>
+          <path fill="#FFFFFF" d="M328.501,437.202c0-1.107,0.839-1.939,1.912-1.939c1.059,0,1.89,0.832,1.89,1.939
+		c0,1.125-0.831,1.95-1.89,1.95C329.34,439.152,328.501,438.327,328.501,437.202z M330.413,439.539c1.273,0,2.356-0.983,2.356-2.337
+		c0-1.342-1.083-2.325-2.356-2.325c-1.288,0-2.379,0.983-2.379,2.325C328.034,438.555,329.125,439.539,330.413,439.539z
+		 M329.918,437.387h0.47l0.713,1.168h0.456l-0.767-1.186c0.396-0.049,0.7-0.26,0.7-0.744c0-0.531-0.315-0.767-0.953-0.767h-1.028
+		v2.696h0.409V437.387L329.918,437.387z M329.918,437.042v-0.838h0.557c0.285,0,0.587,0.063,0.587,0.398
+		c0,0.416-0.309,0.439-0.655,0.439H329.918z"/>
+        </g>
+        <foreignObject width="100" height="100"> <img src="img/logo-deejay.png" alt="logo deejay"  width="100" height="100"/> </foreignObject>
+      </svg>
+      </a></h1>
+  <p><a href="https://microsoft.promo.eprize.com/ie9app/gallery?id=254">Vota la nostra app</a> nel concorso Microsoft<br />e condividi questa pagina con i tuoi amici</p>
+  <ul>
+    <li><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.deejay.it/D5/contest/&amp;t=Cosa lega Duran Duran, Skunk Anansie e Take That? Scoprilo con la nuova esperienza multimediale di DEEJAY.IT" title="Condividi con Facebook"></a></li>
+    <li><a target="_blank" href="http://twitter.com/home?status=%23radiodeejay%20Cosa%20lega%20Duran%20Duran,%20Skunk%20Anansie%20e%20Take%20That?%20Scoprilo%20con%20la%20nuova%20esperienza%20multimediale%20di%20DEEJAY.IT http://bit.ly/kxeF13%20" title="Condividi con Twitter"></a></li>
+    <li><a target="_blank" href="http://profile.live.com/badge?url=http://www.deejay.it/D5/contest/" title="Condividi con Messenger"></a></li>
+    <li><a target="_blank" href="https://microsoft.promo.eprize.com/ie9app/gallery?id=254" title="Vota"><span>VOTA</span></a></li>
+  </ul>
+</div>
+<!-- end of #app --> 
+<script src='js/libs/jquery-1.5.2.min.js'></script> 
+<script src='js/hashchange.min.js'></script> 
+<script src="js/jquery.fadeInSequence.min.js"></script> 
+<script src='js/easing.jQuery.js'></script> 
+<script src='js/jquery.cycle.min.js'></script> 
+<script src="js/jquery.ui.slider.js"></script> 
+<script src="js/flarevideo.min.js"></script> 
+<script src="js/jquery.srt.min.js"></script> 
+<script src="js/script.min.js"></script> 
+<script src="js/Three.js"></script> 
+<script src="js/RequestAnimationFrame.js"></script> 
+<script src="js/Tween.min.js"></script> 
+<script>
+if($.browser.mozilla){ 
+	document.write("<script src='js/particlesFF.min.js'>\x3C/script>")
+}
+else document.write("<script src='js/particles.min.js'>\x3C/script>")
+</script>
+
+<!-- START Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- COPYRIGHT 2006 Nielsen//NetRatings -->
+
+<script type="text/javascript">
+	var _rsCI="kataweb-it";
+	var _rsCG="0";
+	var _rsDN="//secure-it.imrworldwide.com/";
+	var _rsCC=0;
+	var _rsIP=1;
+</script>
+<script type="text/javascript" src="//secure-it.imrworldwide.com/v52.js"></script>
+<noscript>
+   	<img src="//secure-it.imrworldwide.com/cgi-bin/m?ci=kataweb-it&amp;cg=0" style="display:none" alt="" />
+</noscript>
+
+<!-- END Nielsen//NetRatings SiteCensus V5.2 -->
+
+</body>
+</html>

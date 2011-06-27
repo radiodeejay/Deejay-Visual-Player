@@ -1,0 +1,208 @@
+.videoControls {
+	position:absolute;
+	top:30px;
+	left:40px;
+}
+
+.videoControls .controls {
+  position: relative;
+  height: 10px;
+  width:120px;
+  /*
+  border: 1px solid #353535;
+  border-top-color: #787878;
+  border-bottom-color: #464646;
+  background: -moz-linear-gradient(top, #606060, #4E4E4E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#4E4E4E));
+  */
+
+}
+
+.videoControls .controls .play,
+.videoControls .controls .pause,
+.videoControls .controls .fullScreen,
+.videoControls .controls .volMin,
+.videoControls .controls .volMax { 
+  cursor: pointer;
+}
+
+.videoControls .controls input[type="range"],
+.videoControls .controls .ui-slider {
+  -khtml-appearance: none; 
+  background: #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  width:120px;
+  height: 10px;
+  padding: 0;
+}
+
+.videoControls .controls input[type="range"]::-webkit-slider-thumb {
+  -khtml-appearance: none;
+  /*background: url(../img/playerSkin/thumb.png) no-repeat; */
+  width: 14px; 
+  height: 14px;
+  background:#000 ;
+  border:2px solid #fff;
+  border-radius: 10px;
+
+}
+
+.videoControls .controls .ui-slider-handle { 
+  background:#000;
+  margin:-2px 0 0 -7px;
+  border:2px solid #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  width: 10px; 
+  height: 10px;
+}
+
+.videoControls .controls .seek .seekRange {
+  width: 100%;
+}
+
+.videoControls .controls .fullScreen {
+  width: 16px;
+  height: 16px;
+  text-indent: -5000px;
+  background: url(../img/playerSkin/full-screen.png) no-repeat center center;
+  
+  /* TODO */
+  display: none;
+}
+
+.videoControls .controls .volume {
+  display:none;
+  width: 90px;
+}
+
+.videoControls .controls .volume .volMin,
+.videoControls.controls .volume .volMax {
+  text-indent: -5000px;
+}
+
+.videoControls .controls .volume .volMin {
+  width: 9px;
+  height: 21px;
+  background: url(../img/playerSkin/vol-min.png) no-repeat center center;
+  
+  /* TODO */
+  display: none;
+}
+
+.videoControls .controls .volume .volMax {
+  width: 9px;
+  height: 21px;
+  background: url(../img/playerSkin/vol-max.png) no-repeat center center;
+}
+
+.videoControls .controls .volume .volRange {
+  width: 50px;
+}
+
+.videoControls .controls .timeMin,
+.videoControls .controls .timeMax {
+  display:none;
+  font-family: Apex,"Helvetica Neue","HelveticaNeue",helvetica,sans-serif;
+  font-size: 13px;  
+  color: #C2C2C2;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #000;
+}
+
+.videoControls .controls .pause,
+.videoControls .controls .play {
+  display:none;
+  float:left;
+  width: 20px;
+  height: 10px;
+  border:2px solid #000;
+  border-radius:10px;
+  margin:-2px 0 0 -2px;
+  text-indent: -5000px;  
+}
+
+/*
+.videoControls .controls .pause {
+display: none; 
+background:#fff url('../img/playerSkin/play-pause.png') no-repeat bottom center;
+}
+
+.videoControls .controls .play {
+  display: block;
+  background:#fff url('../img/playerSkin/play-pause.png') no-repeat top center;
+}
+
+.videoControls.playing .controls .play {
+  display: none;
+}
+
+.videoControls.playing .controls .pause {
+  display: block;
+}
+*/
+
+.videoControls .controls .fullScreen {
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+
+.videoControls .controls .play,
+.videoControls .controls .pause {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.videoControls .controls .seek {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.videoControls .controls .seek .seekRange {
+
+  position: absolute;
+  top: 0;
+}
+
+.videoControls .controls .timeMin {
+  position: absolute;
+  top: 12px;
+  left: 135px;
+}
+
+.videoControls .controls .timeMax {
+  position: absolute;
+  top: 12px;
+  right: 9px;
+}
+
+.videoControls .controls .volume {
+  position: absolute;
+  left: 35px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.videoControls .controls .volume .volMin {
+  position: absolute;
+  left: 0;
+}
+
+.videoControls .controls .volume .volMax {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+
+.videoControls .controls .volume .volRange {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
