@@ -15,6 +15,16 @@ Radio Deejay
   Site: http://www.gianlucaguarini.com
   Twitter: @gianlucaguarini
   Location: Milan
+
+  Riccardo Costato
+  Site: http://it.linkedin.com/pub/riccardo-costato/11/402/322
+  Twitter: ----------
+  Location: Milan
+
+  Luca La Tegola
+  Site: http://www.linkedin.com/in/lucalategola
+  Twitter: @lategolaluca
+  Location: Milan
   
 
 /* THANKS */
@@ -23,13 +33,42 @@ Radio Deejay
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
+
+
   
-                                    
-      /    \    
-     J      L   
-      \,--./    
-    __/`--'\__   
-  ,' J`\  /'L `. 
-      \ || /     
-       J--L     
-    --"    "--     
+
+                         `-/+syhddmmmmddhys+/-`                        
+                   `:ohmNMMMNNNNNNNNNNNNNNMMMNmho:`                   
+                -odNNNNNNNdys+/::----::/+sydNNNNNNNdo-                
+             .omMNNNNds/.                    ./odNNNNNmo.             
+           :hNNNNNy/`                            `:yNNNNNh:           
+         :dMMNNh/`                                   /hNNNNd:         
+       .hMNNNy-                                        .yNNNNh.       
+      +NNNMh- -mNNNNNNNNmh+`  :mNNNNNNNNNm``dNNNNNNNNNm: .hNNNN+      
+    `yMNNN/   /NNNNNNNNNNNNm. +MNNNMNNNNNM.-MNNNNNNNNNN/   /mNNNh`    
+   `dMNNd.    /NNNNN--:hNNNNd +MNNNd...... -MNNNM-.....     .dMNNd`   
+  `dNMNh`     /NNNNN   .NNNNN.+MNNNm:::-   -MNNNM/::-`       `hMNNd`  
+  yNNNd`      /NNNNN    mNNNM-+MNNNNNNNM-  -MNNNNNNNNo         hNNNy  
+ /MNMN.       /NNNNN    mNNNM-+MNNNNdddh.  -MNNNNdddd:         `mMNM/ 
+ mNNM+        /NNNNN   `NNNNN`+MNNNd       -MNNNM`              +MNNm 
+:NNNm`        /NNNNN``.sMNNNy +MNNNd...... -MNNNM-.....          mNNN:
+sNNNy         /NNNNNNMMNNNNm` +MNNNNNNNNMM--MNNNNMMMNNN+         sNNNs
+hNNM+         -dmmmmmmmmmdo`  :dmmmNNNNNNm.`dNNNNNNNNNN/         +MNNh
+dNNN/                                                            /MNNd
+hNNM+               `yhhhs     :yhhhhh/ :hhhhh:  -yhhhh/         +MNNh
+sNNNy               .MNNNN     mNNNNNNN-`hMNNNN-`mNNNNd`         yNNNs
+:NNNN`              .MNNNN    +MNNNNNNNd `dNNNMmhNNNNd`         `NNNN:
+ mNNM+              .MNNNN   `mNNNNhNNNM/ `dMNNNNNNNd`          +MNNd 
+ /NNNN.             .MNNNN   +MNNNy-NNNNm` `dNNNNNNd`          .NMNN: 
+  yNNNd`            .MNNNN  `mNNNNhoNNNNNo  `mNNNNm`          `dNNNy  
+  `dNNMh`     `shhy..MNNNN  +MNNNNNNNNNNNN.  yNNNMy          `hMNNh   
+   `dNNMd.    :MNNMo:MNNNN `mNNNMhsssmNNNNh  yNNNMy         .dNNNh`   
+    `yNNNN/   :NNNNMMNNNNN +NNNNN`   +MNNNM: yNNNMy .:-`   /NNNNy`    
+      +NNNNh- -NNNNNNNNNNh mMMMN+    `dMMMMh +NNMNo ://- .hNNNN+      
+       .hNNMNy-                                      ` .yNMNNh.       
+         :dNNMNh/`                                   /hNMNNd:         
+           :hNNNNNy/`                            `:yNNNNNh:           
+             .omNNMNNds/.                    .:ohNMNNNmo.             
+                -odNNNNNNNdys+/:------:/+oydNNNNNNNdo-                
+                   `:ohmNNNNNNNMMMMMMMMNNNNNNNmho:`                   
+                        `-/+syhddmmmmddhyso/-`                         

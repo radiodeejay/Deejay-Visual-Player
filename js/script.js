@@ -1,3 +1,35 @@
+/**
+*
+* Version: 	1.00
+* Author:	Radio Deejay area web (http://www.deejay.it/D5/contest/humans.txt)
+* Contact: 	webmaster@deejay.it
+* Website:	http://www.radiodeejay.it
+* Twitter:	@radiodeejay
+*
+* Copyright (c) 2011 Radio Deejay
+* 
+* Permission is hereby granted, free of charge, to any person
+* obtaining a copy of this software and associated documentation
+* files (the "Software"), to deal in the Software without
+* restriction, including without limitation the rights to use,
+* copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the
+* Software is furnished to do so, subject to the following
+* conditions:
+* 
+* The above copyright notice and this permission notice shall be
+* included in all copies or substantial portions of the Software.
+* 
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+* OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+* NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+* HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+* OTHER DEALINGS IN THE SOFTWARE.
+**/
+
 //animation vars
 var addDistance = 0;
 var offsetLeft = null;
@@ -424,8 +456,8 @@ function startLyrics(artistId, sectionId) {
     $('#lyrics:hidden').fadeIn();
 
 
-    var lyricsDiv = '<div class="srt" data-audio="audio" data-srt="media/' + artistId + '.srt" /></div>';
-    var audioHtml = '<audio id="audio"><source src="media/' + artistId + '.mp3"><source src="media/' + artistId + '.ogg"></audio>'
+    var lyricsDiv = '<div class="srt" data-audio="audio" data-srt="http://www.deejay.it/D5/contest/media/' + artistId + '.srt" /></div>';
+    var audioHtml = '<audio id="audio"><source src="http://www.deejay.it/D5/contest/media/' + artistId + '.mp3"><source src="media/' + artistId + '.ogg"></audio>'
     var lyricsHtml = lyricsDiv + audioHtml;
     //playng with lyrics
     $('#lyrics').prepend(lyricsHtml);
