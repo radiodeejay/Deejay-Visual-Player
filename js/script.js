@@ -3,7 +3,7 @@
 * Version: 	1.00
 * Author:	Radio Deejay Areaweb Team (http://www.deejay.it/D5/contest/humans.txt)
 * Contact: 	webmaster@deejay.it
-* Website:	http://www.radiodeejay.it
+* Website:	http://www.deejay.it
 * Twitter:	@radiodeejay
 *
 * Copyright (c) 2011 Radio Deejay
